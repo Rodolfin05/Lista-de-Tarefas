@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(75deg, #000000, #001100);
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.interface {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 55px;
+    padding-top: 30px;
+    border-radius: 12px;
+}
+.interface h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.topo input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    outline: none;
+    font-size: 1.2rem;
+    background: #191818;
+    color: #FFFFFF;
+}
+
+.topo button {
+    width: 45px;
+    border-radius: 12px;
+    border: 1px solid #191818;
+    background: #191818;
+    color: #FFFFFF; 
+    outline: none;
+}
+
+.topo button:hover {
+    background-color: #1f1e1e;
+    cursor: pointer;
+}
+
+#listatarefas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listatarefas li {
+    padding: 20px;
+    background: #191818;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btnacao, .btnacaoconcluida{
+    border-radius: 20px;
+    border: 1px solid #191818;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.btnacao:hover, .btnacaoconcluida:hover {
+    background-color: #3c3a3a;
+}
+
+.btnacaoconcluida.verde {
+    background-color: green;
+    color: white;
+}
+
+footer {
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.desenvolvedor p{
+    margin: 10px;
+}
+
+.desenvolvedor a{
+    margin: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
